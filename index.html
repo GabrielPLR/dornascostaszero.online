@@ -20,20 +20,24 @@
       padding: 10px;
       text-align: center;
       font-weight: bold;
+      font-size: 20px;
+        padding: 15px 30px; 
+        border-radius: 5px;
     }
-    .btn-roxo {
-      background-color: #8a1eff;
-      color: white;
-      border: 2px solid #8a1eff;
-      border-radius: 4px;
-      padding: 10px 20px;
-      text-decoration: none;
-      font-weight: bold;
+    .btn-laranja {
+       background-color: #FFA500; /* Laranja mais forte */
+  color: white;
+  border: 2px solid #FFA500; /* Borda laranja mais forte */
+  border-radius: 10px; /* Raio da borda arredondada aumentado */
+  display: inline-block;
+  padding: 15px 30px; /* Espaçamento interno aumentado */
+  font-weight: bold;
+  font-size: 18px; /* Tamanho da fonte aumentado */
+  text-decoration: none; /* Removido o sublinhado no texto */
     }
-    .btn-roxo:hover {
-      background-color: #5d00b3;
-      border-color: #5d00b3;
-    }
+    .btn-text {
+  display: block;
+  text-align: center;    }
   </style>
   <script>
     !function(f,b,e,v,n,t,s)
@@ -89,20 +93,25 @@
             <p>HAZ CLIC EN LA PRESENTACIÓN Y ENTIENDE.</p>
           </div>
          <iframe id="panda-4069eb92-f53a-4ebf-b52b-ba736d9e2014" src="https://player-vz-63458bee-61a.tv.pandavideo.com.br/embed/?v=4069eb92-f53a-4ebf-b52b-ba736d9e2014" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="720" height="360" fetchpriority="high"></iframe>
-            <p><span id="numero-assistindo">213</span> personas están viendo ahora.</p>
+            <div class="col-12 text-center">
+<p class="som text-center">
+<img src="" alt="">
+Por favor, verifique se o seu som está ligado!
+            <p><span id="numero-assistindo"></span></p>
          </div>
         </div>
-        <div id="cta1" class="mt-4 d-none">
-    <a href="https://pay.hotmart.com/C85794040M?checkoutMode=10" class="btn-roxo" style="background-color: orange;">
-      <span class="span-btn">QUIERO UNIRME</span>
-      <span class="span-btn2"></span>
+ <div class="container text-center">
+ <div id="cta1" class="mt-4">
+    <a href="https://pay.kiwify.com.br/HkrDVPl" class="btn-laranja" style="text-decoration: none;">
+      <span class="span-btn txt-amarelo">QUERO OBTER ACESSO!</span>
+      <span class="span-btn2 txt-amarelo">(atenção: vagas limitadas)</span>
     </a>
   </div>
   <script>
   // Função para exibir o botão após 1380 segundos
       setTimeout(function() {
         document.getElementById("cta1").classList.remove("d-none");
-      }, 1370000); // 1380 segundos em milissegundos
+      }, 0); // 1380 segundos em milissegundos
     </script>
     </div>
   </header>
